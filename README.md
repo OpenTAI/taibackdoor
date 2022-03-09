@@ -25,7 +25,7 @@ a part of the [OpenTAI](https://github.com/OpenTAI) project.
 We appreciate all contributions to improve for TAIBackdoor. Welcome community users to participate in our projects. Please refer to [CONTRIBUTING.md](https://github.com/OpenTAI/taiadv/blob/main/CONTRIBUTING.md) for guideline.
 
 ## Acknowledgement
-TAIAdv is an open-source project that is contributed by researchers from the community. Part of the code is based on existing papers, either reimplementation or open-source code provided by authors. For complete list of paper, please see [ACKNOWLEDGEMENT.md](https://github.com/OpenTAI/taiadv/blob/main/ACKNOWLEDGEMENT.md)
+TAIBackdoor is an open-source project that is contributed by researchers from the community. Part of the code is based on existing papers, either reimplementation or open-source code provided by authors. For complete list of paper, please see [ACKNOWLEDGEMENT.md](https://github.com/OpenTAI/taiadv/blob/main/ACKNOWLEDGEMENT.md)
 
 ## Other Projects in OpenTAI
 - [TAIXIA](https://github.com/OpenTAI/taixai): Explainable AI Toolbox
