@@ -9,12 +9,12 @@ README = pathlib.Path("README.md").read_text()
 
 # This call to setup() does all the work
 setup(
-    name="taiadv",
+    name="taibackdoor",
     version="0.0.1",
-    description="Adversarial Attack and Defense Toolbox and Benchmark",
+    description="Backdoor Attack and Defense Toolbox and Benchmark",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/OpenTAI/taiadv",
+    url="https://github.com/OpenTAI/taibackdoor",
     author="OpenTAI",
     author_email="",
     license="MIT",
