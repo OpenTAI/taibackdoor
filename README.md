@@ -29,7 +29,7 @@ TAIBackdoor is an open-source project that is contributed by researchers from th
 
 ## Other Projects in OpenTAI
 - [TAIAdv](https://github.com/OpenTAI/taiadv): Adversarial Attack and Defense Toolbox and Benchmark
-- [TAIXIA](https://github.com/OpenTAI/taixai): Explainable AI Toolbox
+- [TAIXAI](https://github.com/OpenTAI/taixai): Explainable AI Toolbox
 - [TAICorruption](https://github.com/OpenTAI/taicorruption): Common Corruption Robustness Toolbox and Benchmark
 - [TAIBackdoor](https://github.com/OpenTAI/taibackdoor): Backdoor Attack and Defense Toolbox and Benchmark
 - [TAIFairness](https://github.com/OpenTAI/taifairness): AI Fairness Toolbox and Benchmark
