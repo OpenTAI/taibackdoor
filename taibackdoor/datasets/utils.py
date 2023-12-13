@@ -4,15 +4,6 @@ from torchvision import transforms
 from torchvision.datasets import CIFAR10, CIFAR100, SVHN, MNIST, ImageNet
 from torchvision.datasets.folder import ImageFolder
 from taibackdoor.attacks import *
-# from .cifar_sig import SIGCIFAR10
-# from .cifar_trojan import TrojanCIFAR10
-# from .cifar_blend import BlendCIFAR10
-# from .cifar_cl import CLCIFAR10
-# from .cmnist import CMNIST
-# from .cmnist_sig import CMNISTSIG
-# from .cifar_10_1 import CIFAR_10_1
-# from .cifar_dynamic import DynamicCIFAR10
-# from .isbba import ISBBAImageNet, ISBBAImageNetClean
 
 transform_options = {
     "None": {
