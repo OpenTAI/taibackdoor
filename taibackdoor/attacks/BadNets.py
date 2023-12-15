@@ -20,7 +20,7 @@ class BadNetCIFAR10(datasets.CIFAR10):
         > https://ieeexplore.ieee.org/document/8685687
     """
     def __init__(self, root, train=True, transform=None, target_transform=None,
-                 download=False, poison_rate=0.1, target_label=0, **kwargs):
+                 download=False, poison_rate=0.1, target_label=0, poison_idx=None, **kwargs):
         super().__init__(root=root, train=train, download=download,
                          transform=transform, target_transform=target_transform)
 
@@ -34,7 +34,10 @@ class BadNetCIFAR10(datasets.CIFAR10):
         w, h, c = self.data.shape[1:]
         targets = list(range(0, len(self)))
         s = len(self)
-        self.poison_idx = np.random.permutation(s)[0: int(s * poison_rate)]
+        if poison_idx is None:
+            self.poison_idx = np.random.permutation(s)[0: int(s * poison_rate)]
+        else:
+            self.poison_idx = poison_idx
         self.data[self.poison_idx, w-3, h-3] = 0
         self.data[self.poison_idx, w-3, h-2] = 0
         self.data[self.poison_idx, w-3, h-1] = 255
